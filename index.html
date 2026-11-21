@@ -282,6 +282,35 @@
   .sign-alert strong { color: #92400E; }
 
   /* Direct Contact CTA */
+  .pay-box {
+    display: grid;
+    grid-template-columns: 1fr 220px;
+    gap: 20px;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1.5px solid #BAE6FD;
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin-bottom: 18px;
+  }
+  .pay-qr {
+    background: #FFFFFF;
+    border: 1.5px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 8px;
+    text-align: center;
+  }
+  .pay-qr img {
+    width: 100%;
+    max-width: 195px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+  }
+  @media (max-width: 680px) {
+    .pay-box { grid-template-columns: 1fr; text-align: center; }
+  }
   .cta-box {
     background: var(--forest);
     color: #FFFFFF;
@@ -458,6 +487,22 @@
 
 <section>
   <div class="container">
+    <div class="pay-box">
+      <div>
+        <span class="card-tag" style="background:#E0F2FE; color:#0369A1;" data-i18n="pay_tag">💳 Thanh toán chuyển khoản / VietQR</span>
+        <h3 style="font-size:19px; color:#1B4D3E; margin-bottom:6px;" data-i18n="pay_title">Thanh toán nhanh qua VietQR (Tài khoản chính thức Mộc Hotel)</h3>
+        <p style="font-size:14px; color:#475569; margin-bottom:10px;" data-i18n="pay_desc">Quý khách có thể quét mã VietQR để đặt cọc phòng trực tiếp hoặc thanh toán dịch vụ giặt đồ, xe máy điện, suất ăn tại nhà cực nhanh &amp; minh bạch.</p>
+        <div style="font-size:13.5px; color:#1E293B; background:#F8FAFC; border:1px solid #E2E8F0; border-radius:10px; padding:10px 12px; line-height:1.6;">
+          <strong data-i18n="pay_bank_lbl">Ngân hàng:</strong> Nam A Bank (Ngân hàng TMCP Nam Á)<br>
+          <strong data-i18n="pay_acc_lbl">Số tài khoản:</strong> <strong>403 3226778 00001</strong><br>
+          <strong data-i18n="pay_name_lbl">Chủ tài khoản:</strong> <strong>HO KINH DOANH MOC HOTEL</strong>
+        </div>
+      </div>
+      <div class="pay-qr">
+        <img src="images/vietqr.jpg" alt="VietQR HO KINH DOANH MOC HOTEL - Nam A Bank">
+      </div>
+    </div>
+
     <div class="cta-box">
       <h2 data-i18n="cta_title">Đặt phòng trực tiếp với Chị Linh — Nhanh, ấm áp &amp; tiết kiệm 10–15%</h2>
       <p data-i18n="cta_sub">Nhắn tin bằng tiếng Việt, tiếng Anh, tiếng Nga hoặc tiếng Hàn đều được! Linh sẽ kiểm tra phòng trống và báo giá ưu đãi ngay cho quý khách.</p>
@@ -527,7 +572,13 @@ const T = {
     sign_title: "📍 Lưu ý nhỏ giúp quý khách tìm nhà cực dễ:",
     sign_text: " Địa chỉ tại D17-02-22, Khu đô thị Golden Bay Bãi Dài, Cam Hải Đông, Cam Lâm. Khi taxi tới đúng vị trí, quý khách nhìn bảng hiệu phía trước nhà ghi chữ «MỘC HOTEL» (0914 962 950) nhé!",
     cta_title: "Đặt phòng trực tiếp với Chị Linh — Nhanh, ấm áp & tiết kiệm 10–15%",
-    cta_sub: "Nhắn tin bằng tiếng Việt, tiếng Anh, tiếng Nga hoặc tiếng Hàn đều được! Linh sẽ kiểm tra phòng trống và báo giá ưu đãi ngay cho quý khách."
+    cta_sub: "Nhắn tin bằng tiếng Việt, tiếng Anh, tiếng Nga hoặc tiếng Hàn đều được! Linh sẽ kiểm tra phòng trống và báo giá ưu đãi ngay cho quý khách.",
+    pay_tag: "💳 Thanh toán chuyển khoản / VietQR",
+    pay_title: "Thanh toán nhanh qua VietQR (Tài khoản chính thức Mộc Hotel)",
+    pay_desc: "Quý khách có thể quét mã VietQR để đặt cọc phòng trực tiếp hoặc thanh toán dịch vụ giặt đồ, xe máy điện, suất ăn tại nhà cực nhanh & minh bạch.",
+    pay_bank_lbl: "Ngân hàng:",
+    pay_acc_lbl: "Số tài khoản:",
+    pay_name_lbl: "Chủ tài khoản:"
   },
   en: {
     badge: "★ 9.0/10 Booking.com (95 reviews) • 4.8★ Google Maps • 800m to Bãi Dài Beach",
@@ -580,7 +631,13 @@ const T = {
     sign_title: "📍 Easy Arrival Tip:",
     sign_text: " Address: D17-02-22, Golden Bay Urban Area, Bãi Dài, Cam Hải Đông, Cam Lâm. Look for the front facade sign reading «MỘC HOTEL» (+84 914 962 950)!",
     cta_title: "Message Linh Directly — Warm Hospitality & 10–15% Direct Savings",
-    cta_sub: "Write in English, Russian, Korean, or Vietnamese! Linh will reply quickly with availability and your best direct rate."
+    cta_sub: "Write in English, Russian, Korean, or Vietnamese! Linh will reply quickly with availability and your best direct rate.",
+    pay_tag: "💳 Bank Transfer / VietQR Payment",
+    pay_title: "Easy VietQR Bank Payment (Official Mộc Hotel Account)",
+    pay_desc: "Scan the VietQR code for direct room deposits, weekly extensions, laundry, electric scooter rental, or home-cooked meals — fast and transparent.",
+    pay_bank_lbl: "Bank:",
+    pay_acc_lbl: "Account Number:",
+    pay_name_lbl: "Account Name:"
   },
   ru: {
     badge: "★ 9,0/10 Booking.com (95 отзывов) • 4,8★ Google Maps • 800 м до пляжа Бай Дай",
@@ -633,7 +690,13 @@ const T = {
     sign_title: "📍 Ориентир при заезде (чтобы не перепутать):",
     sign_text: " Адрес: D17-02-22, квартал Golden Bay, Бай Дай, Кам Лам. Когда такси подъедет к дому, ищите вывеску на фасаде «MỘC HOTEL» (+84 914 962 950)!",
     cta_title: "Напишите Лин напрямую — ответим быстро и дадим лучшую цену (-10–15%)",
-    cta_sub: "Смело пишите на русском, английском, корейском или вьетнамском! Проверим свободные даты и поможем с трансфером."
+    cta_sub: "Смело пишите на русском, английском, корейском или вьетнамском! Проверим свободные даты и поможем с трансфером.",
+    pay_tag: "💳 Оплата переводом / VietQR",
+    pay_title: "Удобная оплата по VietQR (официальный счёт Mộc Hotel)",
+    pay_desc: "Отсканируйте VietQR для прямого бронирования, продления проживания, оплаты стирки, электробайка или домашних обедов.",
+    pay_bank_lbl: "Банк:",
+    pay_acc_lbl: "Номер счёта:",
+    pay_name_lbl: "Получатель:"
   },
   kr: {
     badge: "★ Booking.com 9.0/10 (후기 95개) • 구글 4.8★ • 바이다이 해변 800m",
@@ -686,7 +749,13 @@ const T = {
     sign_title: "📍 쉽게 찾아오시는 팁:",
     sign_text: " 주소: D17-02-22 Golden Bay, Bãi Dài, Cam Lâm. 택시 도착 시 건물 정면의 «MỘC HOTEL» (+84 914 962 950) 간판을 확인해 주세요!",
     cta_title: "호스트 린에게 바로 문의하세요 — 10~15% 직접 예약 할인!",
-    cta_sub: "한국어, 영어, 러시아어, 베트남어 모두 편하게 메시지 보내시면 빠르게 답변해 드립니다."
+    cta_sub: "한국어, 영어, 러시아어, 베트남어 모두 편하게 메시지 보내시면 빠르게 답변해 드립니다.",
+    pay_tag: "💳 계좌이체 / VietQR 결제",
+    pay_title: "간편 VietQR 계좌 결제 (목 호텔 공식 사업자 계좌)",
+    pay_desc: "직접 예약, 장기 숙박 연장, 세탁, 전기 스쿠터 및 식사 비용을 VietQR로 빠르고 안전하게 결제하실 수 있습니다.",
+    pay_bank_lbl: "은행:",
+    pay_acc_lbl: "계좌번호:",
+    pay_name_lbl: "예금주:"
   }
 };
 
