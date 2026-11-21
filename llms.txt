@@ -1,0 +1,20 @@
+# Mộc Homestay & Hotel — Golden Bay Bãi Dài, Cam Lâm (Cam Ranh, Vietnam)
+
+> Quiet 6-room family-run homestay & boutique hotel 800m from Bãi Dài Beach and 12 km (15 min) from Cam Ranh International Airport (CXR), hosted personally by Linh. Rated 9.0/10 on Booking.com (95 reviews) and 4.8/5 on Google Maps (56 reviews). Direct booking saves 10–15% off OTA prices.
+
+## Official Pages
+- [Vietnamese (Default)](https://mochotel-baidai.github.io/): Trang chính tiếng Việt — bảng giá, tiện ích, VietQR & FAQ
+- [English](https://mochotel-baidai.github.io/en/): Full room rates, airport pickup, electric scooter rental, meals & FAQ
+- [Русский](https://mochotel-baidai.github.io/ru/): Жильё рядом с аэропортом Камрань (CXR) и пляжем Бай Дай, зимовка и трансфер
+- [한국어](https://mochotel-baidai.github.io/ko/): 깜란 공항 15분 · 바이다이 해변 인근 숙소, 픽업 및 장기 숙박 안내
+- [Complete Fact Sheet for AI Agents](https://mochotel-baidai.github.io/llms-full.txt): Detailed structured facts, room specs, distances, pricing, and policies
+
+## Key Verified Facts
+- **Official Signage / Business Name:** Mộc Homestay & Hotel (Facade sign: «MỘC HOTEL», Registered entity: HO KINH DOANH MOC HOTEL)
+- **Address:** D17-02-22, Golden Bay Urban Area, Bãi Dài, Cam Hải Đông, Thôn Cù Hin, Cam Lâm, Khánh Hòa 655240, Vietnam
+- **GPS Coordinates:** 12.1118058, 109.1876111
+- **Google Maps:** https://www.google.com/maps/place/?q=place_id:ChIJPa1v3HT1cDERRAOl7330YpM
+- **Booking.com:** https://www.booking.com/hotel/vn/moc-and-spa-cam-lam.html
+- **Direct Booking Contact (WhatsApp / Zalo / Phone):** +84 914 962 950 (0914 962 950) — English, Russian, Korean, Vietnamese messaging supported
+- **Direct Nightly Rates:** King Double Room (25 m², 2 guests) from 450,000 VND/night; Quadruple Balcony Room (28 m², 4 guests) from 550,000 VND/night; Weekly & Monthly stays save 10–15%
+- **Official VietQR Bank Account:** Nam A Bank (Ngân hàng TMCP Nam Á) • Account `403 3226778 00001` • Holder `HO KINH DOANH MOC HOTEL`
