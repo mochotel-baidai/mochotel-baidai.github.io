@@ -115,6 +115,11 @@
       "amenityFeature": [
         {
           "@type": "LocationFeatureSpecification",
+          "name": "Free access to private beachfront pavilion Sea Camp • Mộc Beach on Bãi Dài (loungers, hammocks, rinse shower)",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
           "name": "Free high-speed Wi-Fi (72 Mbps)",
           "value": true
         },
@@ -183,10 +188,10 @@
         },
         {
           "@type": "Question",
-          "name": "바이다이 해변까지 거리가 어떻게 되나요?",
+          "name": "바이다이 해변까지 거리가 어떻게 되며 전용 비치 라운지가 있나요?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "맑은 바이다이 해변까지 약 800m 거리로 도보 10분 또는 숙소 전기 스쿠터로 3분이면 도착합니다."
+            "text": "바이다이 해변까지 약 800m(전기 스쿠터 3분) 거리입니다. 특히 목(Mộc) 호텔 투숙객은 해변 바로 앞 호스트 직영 비치 라운지 «Sea Camp • Mộc Beach»의 선베드, 해먹, 담수 샤워, 물품 보관을 무료로 이용하실 수 있으며 카약·SUP 대여와 해변 BBQ도 가능합니다!"
           }
         },
         {
@@ -367,6 +372,15 @@
   .price small { font-size: 12.5px; font-weight: 600; color: var(--muted); }
   .card ul { margin: 10px 0 0 18px; font-size: 13.8px; color: #334155; }
   .card ul li { margin-bottom: 4px; }
+  .beach-banner {
+    background: linear-gradient(135deg, #13382D 0%, #1B4D3E 65%, #2B6C58 100%);
+    color: #FFFFFF; border: 2px solid #F59E0B; border-radius: 15px;
+    padding: 20px 22px; margin-bottom: 18px;
+    box-shadow: 0 6px 20px rgba(27, 77, 62, 0.14);
+  }
+  .beach-banner .card-tag { background: #F59E0B; color: #1E293B; margin-bottom: 8px; }
+  .beach-banner h3 { color: #FEF3C7; font-size: 19px; margin-bottom: 8px; }
+  .beach-banner p { color: #E2F1EC; font-size: 14.3px; margin-bottom: 14px; }
   .sign-alert {
     background: var(--sand); border: 1.5px solid #F59E0B; border-left: 5px solid var(--amber);
     border-radius: 12px; padding: 16px 18px; margin-top: 16px;
@@ -534,6 +548,12 @@
   <div class="container">
     <h2 class="sec-title">투숙객을 위한 편리한 맞춤 서비스</h2>
     <p class="sec-sub">조용한 골든베이 단지 안에서도 불편함 없이 지내실 수 있도록 호스트 린이 직접 준비해 드립니다.</p>
+    <article class="beach-banner">
+      <span class="card-tag">🌊 골든베이 유일 특별 혜택 • 목 호텔 투숙객 무료 이용</span>
+      <h3>🏖️ 바이다이 해변 전용 비치 라운지 «Sea Camp • Mộc Beach» (스쿠터 3분!)</h3>
+      <p>골든베이의 일반 숙소와 달리 목(Mộc) 호텔 투숙객은 호스트가 직접 운영하는 바이다이 해변 바로 앞 전용 비치 파빌리온 Sea Camp를 무료로 이용하실 수 있습니다: 그늘 선베드, 해먹, 담수 샤워, 탈의·보관 공간 무료! 카약·SUP 대여, 시원한 코코넛, 가족 BBQ 공간도 완비되어 있습니다.</p>
+      <a class="btn btn-amber" href="https://www.google.com/maps/place/Sea+Camp/@12.1136648,109.1952667,17z/data=!3m1!4b1!4m6!3m5!1s0x31708ba99def57cb:0xf22c45b30e09b348!8m2!3d12.1136648!4d109.1952667!16s%2Fg%2F11p1kk09t0" target="_blank" rel="noopener">📍 구글 지도에서 Sea Camp 바이다이 위치 보기</a>
+    </article>
     <div class="grid-2">
       <article class="card amber-card"><h3>🍱 홈메이드 도시락 (Take-Away) &amp; 음료</h3><p>따뜻한 조식(7:00~8:30), 깔끔한 가정식 도시락(65,000~85,000 VND), 간편식, 시원한 음료와 열대 과일을 메시지로 간편하게 주문하세요.</p></article>
       <article class="card"><h3>🧺 당일 세탁 &amp; 햇볕 건조 서비스</h3><p>바닷바람에 뽀송하게 말려 깔끔하게 접어 객실 문 앞까지 배달해 드립니다 (1회 60,000~80,000 VND).</p></article>
@@ -559,7 +579,7 @@
     </dl>
     <div class="faq-list">
       <details class="faq-item" open><summary>깜란 국제공항(CXR)에서 얼마나 걸리며 픽업이 가능한가요?</summary><p>깜란 공항에서 차로 약 15분(12 km) 거리입니다. 호스트 린에게 미리 요청하시면 단독 픽업 차량을 준비해 드리며, 밤 6시 이후 심야 항공편 도착 시에도 간편 셀프 체크인을 지원합니다.</p></details>
-      <details class="faq-item"><summary>바이다이 해변까지 거리가 어떻게 되나요?</summary><p>맑은 바이다이 해변까지 약 800m 거리로 도보 10분 또는 숙소 전기 스쿠터로 3분이면 도착합니다.</p></details>
+      <details class="faq-item"><summary>바이다이 해변까지 거리가 어떻게 되며 전용 비치 라운지가 있나요?</summary><p>바이다이 해변까지 약 800m(전기 스쿠터 3분) 거리입니다. 특히 목(Mộc) 호텔 투숙객은 해변 바로 앞 호스트 직영 비치 라운지 «Sea Camp • Mộc Beach»의 선베드, 해먹, 담수 샤워, 물품 보관을 무료로 이용하실 수 있으며 카약·SUP 대여와 해변 BBQ도 가능합니다!</p></details>
       <details class="faq-item"><summary>택시로 갈 때 숙소를 쉽게 찾는 방법이 있나요?</summary><p>기사님께 D17-02-22 Golden Bay Bãi Dài 주소를 보여드리고, 건물 앞면의 «MỘC HOTEL» (+84 914 962 950) 간판을 확인하시면 바로 찾으실 수 있습니다.</p></details>
       <details class="faq-item"><summary>1주일 이상 또는 한 달 살기 할인이 있나요?</summary><p>네! 호스트에게 직접 문의해 1주일~1개월 숙박을 예약하시면 예약 플랫폼 대비 10~15% 할인되며 공용 주방, 대형 냉장고, 72 Mbps 와이파이를 무료로 이용하실 수 있습니다.</p></details>
       <details class="faq-item"><summary>숙소 내에서 식사, 세탁, 스쿠터 대여도 가능한가요?</summary><p>네, 조식 및 홈메이드 도시락(65,000~85,000 VND), 세탁 및 건조(60,000~80,000 VND), 면허 불필요 전기 스쿠터 대여(하루 130,000~150,000 VND, 무료 충전)를 모두 이용하실 수 있습니다.</p></details>
@@ -597,6 +617,7 @@
       <div class="ext-links">
         <a href="https://www.booking.com/hotel/vn/moc-and-spa-cam-lam.html" target="_blank" rel="noopener">Booking.com 9.0/10 후기 보기</a>
         <a href="https://www.google.com/maps/place/?q=place_id:ChIJPa1v3HT1cDERRAOl7330YpM" target="_blank" rel="noopener">구글 지도 4.8★ 평점 보기</a>
+        <a href="https://www.google.com/maps/place/Sea+Camp/@12.1136648,109.1952667,17z/data=!3m1!4b1!4m6!3m5!1s0x31708ba99def57cb:0xf22c45b30e09b348!8m2!3d12.1136648!4d109.1952667!16s%2Fg%2F11p1kk09t0" target="_blank" rel="noopener">Sea Camp • Mộc Beach (Bãi Dài)</a>
         <a href="https://www.facebook.com/profile.php?id=61596745802639" target="_blank" rel="noopener">Facebook: Mộc Hotel - Bãi Dài, Cam Lâm</a>
       </div>
     </div>

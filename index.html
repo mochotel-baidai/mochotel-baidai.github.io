@@ -115,6 +115,11 @@
       "amenityFeature": [
         {
           "@type": "LocationFeatureSpecification",
+          "name": "Free access to private beachfront pavilion Sea Camp • Mộc Beach on Bãi Dài (loungers, hammocks, rinse shower)",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
           "name": "Free high-speed Wi-Fi (72 Mbps)",
           "value": true
         },
@@ -183,10 +188,10 @@
         },
         {
           "@type": "Question",
-          "name": "Từ homestay đi ra biển Bãi Dài mất bao lâu?",
+          "name": "Từ homestay đi ra biển Bãi Dài mất bao lâu và có bãi biển riêng không?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Bãi biển Bãi Dài cách nhà chỉ khoảng 800m (đi bộ 10 phút hoặc chạy xe máy điện thuê tại nhà chỉ mất 3 phút)."
+            "text": "Bãi biển Bãi Dài cách nhà khoảng 800m (3 phút chạy xe máy điện). Đặc biệt, khách lưu trú tại Mộc Hotel được sử dụng MIỄN PHÍ chòi biển riêng «Sea Camp • Mộc Beach» của chủ nhà ngay sát sóng Bãi Dài — có ghế nằm, võng, vòi tắm tráng nước ngọt, chỗ gửi đồ, thuê kayak/SUP và khu BBQ!"
           }
         },
         {
@@ -367,6 +372,15 @@
   .price small { font-size: 12.5px; font-weight: 600; color: var(--muted); }
   .card ul { margin: 10px 0 0 18px; font-size: 13.8px; color: #334155; }
   .card ul li { margin-bottom: 4px; }
+  .beach-banner {
+    background: linear-gradient(135deg, #13382D 0%, #1B4D3E 65%, #2B6C58 100%);
+    color: #FFFFFF; border: 2px solid #F59E0B; border-radius: 15px;
+    padding: 20px 22px; margin-bottom: 18px;
+    box-shadow: 0 6px 20px rgba(27, 77, 62, 0.14);
+  }
+  .beach-banner .card-tag { background: #F59E0B; color: #1E293B; margin-bottom: 8px; }
+  .beach-banner h3 { color: #FEF3C7; font-size: 19px; margin-bottom: 8px; }
+  .beach-banner p { color: #E2F1EC; font-size: 14.3px; margin-bottom: 14px; }
   .sign-alert {
     background: var(--sand); border: 1.5px solid #F59E0B; border-left: 5px solid var(--amber);
     border-radius: 12px; padding: 16px 18px; margin-top: 16px;
@@ -534,6 +548,12 @@
   <div class="container">
     <h2 class="sec-title">Tiện ích chăm sóc trọn gói tại Mộc Homestay</h2>
     <p class="sec-sub">Khu đô thị Golden Bay rất yên bình và ít hàng quán đi bộ — mọi nhu cầu hàng ngày của quý khách đều được chủ nhà Linh hỗ trợ tận tình.</p>
+    <article class="beach-banner">
+      <span class="card-tag">🌊 ĐẶC QUYỀN DUY NHẤT TẠI GOLDEN BAY • MIỄN PHÍ CHO KHÁCH MỘC HOTEL</span>
+      <h3>🏖️ Chòi biển riêng «Sea Camp • Mộc Beach» ngay sát sóng Bãi Dài (cách 3 phút!)</h3>
+      <p>Khác với phần lớn homestay tại Golden Bay, khách lưu trú tại Mộc Hotel được sử dụng MIỄN PHÍ khu chòi gỗ sát biển Sea Camp (cách nhà chỉ 3 phút chạy xe máy điện): ghế nằm, võng mát, vòi tắm tráng nước ngọt, chỗ thay đồ &amp; gửi đồ. Ngoài ra có sẵn kayak, SUP cho thuê, khu bàn ăn nhóm &amp; bếp nướng BBQ ngay trên bãi biển!</p>
+      <a class="btn btn-amber" href="https://www.google.com/maps/place/Sea+Camp/@12.1136648,109.1952667,17z/data=!3m1!4b1!4m6!3m5!1s0x31708ba99def57cb:0xf22c45b30e09b348!8m2!3d12.1136648!4d109.1952667!16s%2Fg%2F11p1kk09t0" target="_blank" rel="noopener">📍 Xem vị trí Sea Camp Bãi Dài trên Google Maps</a>
+    </article>
     <div class="grid-2">
       <article class="card amber-card"><h3>🍱 Suất ăn nhà nấu Take-Away &amp; Đồ uống</h3><p>Bữa sáng ấm nóng (7:00–8:30), hộp cơm nhà nấu sạch sẽ (65.000đ – 85.000đ/phần), đồ dễ hâm nóng tại bếp chung, nước mát và trái cây tươi. Chỉ cần nhắn cho Linh là có ngay.</p></article>
       <article class="card"><h3>🧺 Dịch vụ giặt &amp; phơi thơm tho tại nhà</h3><p>Giặt sạch, phơi nắng tự nhiên đón gió biển và gấp gọn giao tận cửa phòng với mức giá tiết kiệm (60.000đ – 80.000đ / mẻ).</p></article>
@@ -559,7 +579,7 @@
     </dl>
     <div class="faq-list">
       <details class="faq-item" open><summary>Mộc Homestay cách Sân bay Quốc tế Cam Ranh (CXR) bao xa và có xe đón không?</summary><p>Mộc Homestay chỉ cách Sân bay Quốc tế Cam Ranh 12 km (khoảng 15 phút đi ô tô). Chủ nhà Linh hỗ trợ đặt trước xe riêng đón tận sảnh sân bay và gửi hướng dẫn nhận phòng muộn nếu chuyến bay hạ cánh sau 18:00.</p></details>
-      <details class="faq-item"><summary>Từ homestay đi ra biển Bãi Dài mất bao lâu?</summary><p>Bãi biển Bãi Dài cách nhà chỉ khoảng 800m (đi bộ 10 phút hoặc chạy xe máy điện thuê tại nhà chỉ mất 3 phút).</p></details>
+      <details class="faq-item"><summary>Từ homestay đi ra biển Bãi Dài mất bao lâu và có bãi biển riêng không?</summary><p>Bãi biển Bãi Dài cách nhà khoảng 800m (3 phút chạy xe máy điện). Đặc biệt, khách lưu trú tại Mộc Hotel được sử dụng MIỄN PHÍ chòi biển riêng «Sea Camp • Mộc Beach» của chủ nhà ngay sát sóng Bãi Dài — có ghế nằm, võng, vòi tắm tráng nước ngọt, chỗ gửi đồ, thuê kayak/SUP và khu BBQ!</p></details>
       <details class="faq-item"><summary>Làm sao để taxi tìm đúng nhà trong khu đô thị Golden Bay?</summary><p>Quý khách đưa tài xế địa chỉ D17-02-22, Khu đô thị Golden Bay Bãi Dài, Cam Hải Đông, Cam Lâm và nhìn bảng hiệu mặt tiền ghi chữ «MỘC HOTEL» kèm số điện thoại 0914 962 950.</p></details>
       <details class="faq-item"><summary>Ở theo tuần hoặc theo tháng có giá ưu đãi không?</summary><p>Có ạ! Khi đặt trực tiếp với chủ nhà Linh cho kỳ nghỉ từ 1 tuần đến 1 tháng, quý khách được giảm 10–15% so với giá sàn, dùng miễn phí bếp chung, tủ lạnh lớn và Wi-Fi 72 Mbps.</p></details>
       <details class="faq-item"><summary>Trong khu Golden Bay có đồ ăn, giặt ủi và thuê xe máy không?</summary><p>Có sẵn ngay tại Mộc Homestay: cơm nhà nấu và bữa sáng (65.000đ – 85.000đ/phần), giặt phơi nắng gấp gọn (60.000đ – 80.000đ/mẻ), và cho thuê xe máy điện không cần bằng lái (130.000đ – 150.000đ/ngày, sạc điện miễn phí).</p></details>
@@ -597,6 +617,7 @@
       <div class="ext-links">
         <a href="https://www.booking.com/hotel/vn/moc-and-spa-cam-lam.html" target="_blank" rel="noopener">Xem đánh giá 9.0/10 trên Booking.com</a>
         <a href="https://www.google.com/maps/place/?q=place_id:ChIJPa1v3HT1cDERRAOl7330YpM" target="_blank" rel="noopener">Xem 4.8★ trên Google Maps</a>
+        <a href="https://www.google.com/maps/place/Sea+Camp/@12.1136648,109.1952667,17z/data=!3m1!4b1!4m6!3m5!1s0x31708ba99def57cb:0xf22c45b30e09b348!8m2!3d12.1136648!4d109.1952667!16s%2Fg%2F11p1kk09t0" target="_blank" rel="noopener">Sea Camp • Mộc Beach (Bãi Dài)</a>
         <a href="https://www.facebook.com/profile.php?id=61596745802639" target="_blank" rel="noopener">Facebook: Mộc Hotel - Bãi Dài, Cam Lâm</a>
       </div>
     </div>
